@@ -1,0 +1,6 @@
+(library
+ (name execGen)
+ (public_name ExecGen)
+ (libraries ANSITerminal stdint)
+ (instrumentation
+  (backend bisect_ppx)))
